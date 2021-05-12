@@ -16,44 +16,44 @@ function verificar(){
             genero = "Homem"
             if(idade >= 0 && idade < 3){
                 //bebe
-                img.setAttribute("src", "/imagens/bebezinho.png")
+                img.setAttribute("src", "bebezinho.png")
             }else if( idade >=3 && idade < 13){
                 //criança
-                img.setAttribute("src", "/imagens/criancamenino.png")
+                img.setAttribute("src", "criancamenino.png")
             }else if(idade >=13 && idade < 20){
                 //adolescente
-                img.setAttribute("src", "/imagens/jovemmenino.png")
+                img.setAttribute("src", "jovemmenino.png")
             }else if(idade >= 20 && idade < 35){
                 //jovem
-                img.setAttribute("src", "/imagens/jovemm.png")
+                img.setAttribute("src", "jovemm.png")
             }else if(idade >=35 && idade < 55){
                 //adulto
-                img.setAttribute("src", "/imagens/adulto.png")
+                img.setAttribute("src", "adulto.png")
             }else{
                 //idoso
-                img.setAttribute("src", "/imagens/idoso.png")
+                img.setAttribute("src", "idoso.png")
 
             }
         }else if(fsex[1].checked){//aqui ja poderia ser só else, pois se n é 0 é 1
             genero = "Mulher"
             if(idade >= 0 && idade < 3){
                 //bebe
-                img.setAttribute("src", "/imagens/bebezinha.png")
+                img.setAttribute("src", "bebezinha.png")
             }else if(idade >= 3 && idade <13){
                 //criança
-                img.setAttribute("src", "/imagens/criancamenina.png")
+                img.setAttribute("src", "criancamenina.png")
             }else if(idade >= 13 && idade <20){
                 //jovem
-                img.setAttribute("src", "/imagens/jovemmenina.png")
+                img.setAttribute("src", "jovemmenina.png")
             }else if(idade >= 20 && idade <35){
                 //adulto
-                img.setAttribute("src", "/imagens/jovemf.png")
+                img.setAttribute("src", "jovemf.png")
             }else if(idade >= 35 && idade < 55){
                 //idoso
-                img.setAttribute("src", "/imagens/adulta.png")
+                img.setAttribute("src", "adulta.png")
             }else{
                 //idoso
-                img.setAttribute("src","/imagens/idosa.png")
+                img.setAttribute("src","idosa.png")
             }
         }
         res.style.textAlign = "center"
